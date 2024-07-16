@@ -1,0 +1,10 @@
+0716 TIL
+
+[junit]
+1.verify 검증은 InjectMocks된 객체에 대한 함수 실행이 이루어진 후에 진행되어야 한다.
+2.@Spy 어노테이션은 InjectMocks된 객체에 대해 일부 메서드만 mocking하고 싶을 때 사용한다.
+
+[C++]
+1.map에 대한 for loop를 돌며서 value를 수정하려면
+  for(auto iter=m.begin(); iter!=m.end(); iter++)처럼 iterator를 사용하거나,
+  Range-based for loop를 사용할 때는 for(auto &mTest : m)처럼 참조 기호를 사용해야 한다.
