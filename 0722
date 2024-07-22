@@ -1,0 +1,7 @@
+0722 TIL
+
+[java]
+1. 테스트 시 void형 함수를 mocking 하고 싶으면 doNothing() 함수를 사용하면 된다.
+
+[MySql]
+1. where 절에서 a값이 b가 아닐 때를 조건으로 주고 싶다면 -> 'where a <> b' 라고 표현하면 된다.
