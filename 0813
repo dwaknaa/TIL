@@ -1,0 +1,8 @@
+0813 TIL
+
+[googletest]
+1.private 변수, 함수를 테스트 할 때는 'FRIEND_TEST' 사용하면 된다.
+2.'SCOPED_TRACE'를 통해 범위 내의 테스트가 실패할 때만 로그를 기록할 수 있다.
+
+[Boost]
+1.<regex>를 이용해서 어떤 문자열이 url 같은 특정한 유효현 형식으로 구성되어 있는지 확인할 수 있다.
