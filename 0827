@@ -1,0 +1,8 @@
+0827 TIL
+
+[Googletest]
+1. Mock 클래스에서 mocking한 함수를 실제로 실행하고 싶을 때에는 Invoke를 통해 일시적으로 mocking을 해제할 수 있다.
+ex)  EXPECT_CALL(*ptr, function())
+    .WillOnce(::testing::InvokeWithoutArgs([&]() { ptr->OrgClass::function(); }));
+
+    ptr->function(); // 실제 함수가 실행됨
